@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>DumittaStore</title>
+</head>
+<body>
+    <!-- NavBar -->
+    <header>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img class ="logo"src=""></a>
+                <form class="d-flex" role="search">
+                    <!-- <input class="form-control me-2" type="search" placeholder="Que estas Buscando?" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button> -->
+                        <a class="boton-menu boton-carrito" href="./carrito.html">Carrito <span id="numero" class="numero">0</span></a>
+                </form>
+            </div>
+        </nav>
+    </header>
+<!-- <div>
+    <div class="container-icon">
+        <div class="container-cart-icon">
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="icon-cart"
+        >
+            <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+            />
+        </svg>
+        <div class="count-products">
+            <span id="contador-productos">0</span>
+        </div>
+
+        </div>
+        
+        <div class="container-cart-products hidden-cart">
+            <div class="row-product">
+                <div class="cart-product">
+                    <div class="info-cart-product">
+                        <span class="cantidad-producto-carrito">1</span>
+                        <p class="titulo-producto-carrito">Zapatos Nike</p>
+                        <span class="precio-producto-carrito">$80</span>
+                    </div>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon-close"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M6 18L18 6M6 6l12 12"
+                        />
+                    </svg>
+                </div>
+            </div>
+</div> -->
+   
+
+    <!-- Cards -->
+
+    
+    <div class="container">
+        <h2 class="titulo-principal">Catálogo de Productos</h2>
+    </div>
+    
+    <div class="container-cards">
+
+        
+   <!--  
+    esto se va a rellenar con js    
+        <div class="card border-dark mb-3" style="max-width: 20rem;">
+            <div class="card-header">Collares</div>
+            <div class="card-body">
+                <img class="producto-imagen" src="./img/collar.jfif" class="rounded float-start" alt="...">
+                <p class="card-text">Hermosos Collares para todas tus mascotas y de todos los colores</p>
+                <p class="producto-precio">$1000</p>
+                    <button type="button" class="producto-agregar btn btn-dark">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="card border-dark mb-3" style="max-width: 20rem;">
+            <div class="card-header">Pecheras</div>
+            <div class="card-body">
+                <img class="producto-imagen" src="./img/arnes.png" class="rounded float-start" alt="...">
+                <p class="card-text">Pecheras de todos los tamaños para los consentidos del hogar</p>
+                <p class="producto-precio">$1000</p>
+                    <button type="button" class="producto-agregar btn btn-dark">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="card border-dark mb-3" style="max-width: 20rem;">
+            <div class="card-header">Snacks</div>
+            <div class="card-body">
+                <img class="producto-imagen" src="./img/snack.jpg" class="rounded float-start" alt="...">
+                <p class="card-text">Los mas deliciosos y nutritivos snacks para premiar a los consentiidos</p>
+                <p class="producto-precio">$1000</p>
+                    <button type="button" class="producto-agregar btn btn-dark">Agregar al carrito</button>
+            </div>
+        </div> -->
+    </div>
+
+    <div class="container-cards">
+
+    
+       
+      <!--   
+        esto se va a rellenar con js
+        <div class="card border-dark mb-3" style="max-width: 20rem;">
+            <div class="card-header">Canil</div>
+            <div class="card-body">
+                <img class="producto-imagen" src="./img/canil.jpg" class="rounded float-start" alt="...">
+                <p class="card-text">Canil para la seguridad de tu mascota en los viajes</p>
+                <p class="producto-precio">$1000</p>
+                    <button type="button" class="producto-agregar btn btn-dark">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="card border-dark mb-3" style="max-width: 20rem;">
+            <div class="card-header">Bozal</div>
+            <div class="card-body">
+                <img class="producto-imagen" src="./img/bozal.jfif" class="rounded float-start" alt="...">
+                <p class="card-text">Aunque no nos gusten,a veces son necesarios</p>
+                <p class="producto-precio">$1000</p>
+                    <button type="button" class="producto-agregar btn btn-dark">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="card border-dark mb-3" style="max-width: 20rem;">
+            <div class="card-header">Juguetes</div>
+            <div class="card-body">
+                <img class="producto-imagen" src="./img/juguetes.jfif" class="rounded float-start" alt="...">
+                <p class="card-text">Variedad de jueguetes para el entretenimiento</p>
+                <p class="producto-precio">$1000</p>
+                    <button type="button" class="producto-agregar btn btn-dark">Agregar al carrito</button>
+            </div>
+        </div> -->
+    </div> 
+            
+            <!-- Form -->
+
+            <div>
+                <form class="container">
+    
+                    <h2 class=" text-center">Formulario</h2>
+                    <form class="row g-3 needs-validation" novalidate>
+        
+                    <div class="row">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+        
+                        <div class="mb-3">
+                            <label for="last-name" class="form-label">Apellido</label>
+                            <input type="text" class="form-control"  id="Apellido"  required>
+                        </div>
+        
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Correo</label>
+                            <input type="email" class="form-control" id="inputEmail4" required>
+                        </div>
+        
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Direccion</label>
+                            <input type="text" class="form-control" id="inputAddress" required>
+                        </div>
+        
+                        <div class="col-12 text-center">
+                            <input class="btn btn-outline-primary" type="reset" value="Borrar">
+                            <button type="submit" class="btn btn-outline-primary">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+       <!--      <footer>
+                <ul class="footer_ul">
+                    <li class="footer_ul__li"><a href="https://www.instagram.com/"target="_blank"><img src="./img/instagram.jpg" alt="Logo de Instagram"></a></li>
+                    <li class="footer_ul__li"><a href="https://es-la.facebook.com/"target="_blank"><img src="./img/facebook.png" alt="Logo de facebook"></a></li>            <li class="footer_ul__li"><a href="https://web.whatsapp.com/"target="_blank"><img src="./img/whatsapp.png" alt=" Logo de Whats app"></a></li>
+                </ul> 
+            </footer>  -->
+            <script src="index.js" async></script>
+
+        </body>
+        </html>

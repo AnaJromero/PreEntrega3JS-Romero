@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>DumittaStore</title>
+</head>
+<body>
+    <!-- NavBar -->
+    <header>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img class ="logo"src=""></a>
+                <form class="d-flex" role="search">
+                   <!--  <input class="form-control me-2" type="search" placeholder="Que estas Buscando?" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button> -->
+                        <a class="boton-menu boton-carrito" href="./carrito.html">Carrito</a>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Cards -->
+
+<main>
+    <h2 class="titulo-principal">Carritoo</h2>
+
+    <div class="contenedor-carrito">
+        <p id="carrito-vacio" class="carrito-vacio">Que esperas para llenarme?</p>
+        <div id = "carrito-productos"class="carrito-productos disabled">
+           <!--  esto se va a rellenar con js  -->
+        </div>
+        <div id = "carrito-acciones"class="carrito-acciones disabled">
+            <div class="accion-izquierda">
+                <button class="accion-vaciar">Vaciar Carrito</button>
+            </div>
+            <div class="accion-derecha">
+                <div class="accion-total">
+                    <p>Total</p>
+                    <p id="total">$1.000</p>
+                </div>
+                <button class="accion-comprar">Comprar ahora</button>
+            </div>
+        </div>
+        <p id="carrito-comprado" class="carrito-comprado disabled">Muchas Gracias por su compra</p>
+    </div>
+</main>
+   
+<!-- <footer>
+    <ul class="footer_ul">
+        <li class="footer_ul__li"><a href="https://www.instagram.com/"target="_blank"><img src="./img/instagram.jpg" alt="Logo de Instagram"></a></li>
+        <li class="footer_ul__li"><a href="https://es-la.facebook.com/"target="_blank"><img src="./img/facebook.png" alt="Logo de facebook"></a></li>            <li class="footer_ul__li"><a href="https://web.whatsapp.com/"target="_blank"><img src="./img/whatsapp.png" alt=" Logo de Whats app"></a></li>
+    </ul> 
+</footer>  -->
+            <script src="carrito.js" async></script>
+</body>
+</html>
